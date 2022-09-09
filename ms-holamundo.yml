@@ -1,2 +1,18 @@
 server:
   port: 3001
+
+mail:
+  hostname: javatutoriales.com
+  adminMail: programador@gmail.com
+  port: 25
+  from: robot@java.com
+  defaultRecipients:
+    - admin@javatutoriales.com
+    - owner@javatutoriales.com
+  additionalHeaders:
+    redelivery: true
+    ecure: true
+
+demo:
+  valor2: Hola Mundo desde application.properties
+  valorEnv: Hola Mundo desde la clase Environment de Springboot!
